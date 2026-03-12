@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ex #36</title>
+    <script src="./app.js" defer></script>
+  </head>
+  <style>
+    .chooseEl {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .preview {
+      width: 300px;
+      height: 200px;
+      border: 1px solid black;
+    }
+  </style>
+  <body>
+    <div class="home">
+      <!-- choose color element -->
+      <div class="chooseEl">
+        <h2>Choose a color</h2>
+        <input class="colorEl" type="color" />
+        <button class="clearBtn">Clear History</button>
+      </div>
+
+      <!-- preview choosed color -->
+      <div class="preview"></div>
+
+      <!-- history -->
+      <div class="history">
+        <ul class="historyEl"></ul>
+      </div>
+    </div>
+  </body>
+</html>
