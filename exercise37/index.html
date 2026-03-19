@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Simple Blog</h1>
+
+      <!-- create post dialog -->
+      <div class="createPostDialog">
+        <form action="">
+          <h2>Create a New Post</h2>
+          <input type="text" class="postTitle" placeholder="Post Title" />
+          <input type="text" class="postImage" placeholder="Image Url" />
+          <textarea
+            rows="10"
+            class="postDesc"
+            placeholder="Write your post here..."
+          ></textarea>
+          <button class="addPostBtn">Add Post</button>
+        </form>
+      </div>
+
+      <!-- list posts container -->
+      <div class="listPostContainer">
+        <h2>All Posts</h2>
+        <div class="posts">
+          <!-- post dynamically from js -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

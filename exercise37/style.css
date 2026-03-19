@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.createPostDialog {
+  border: 1px solid rgb(212, 212, 212);
+  padding: 30px;
+  width: 600px;
+  border-radius: 8px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+input {
+  padding: 8px 12px;
+  border-radius: 8px;
+  outline: none;
+  border: solid rgb(184, 184, 184);
+}
+.addPostBtn {
+  background-color: rgb(35, 30, 70);
+  color: white;
+  padding: 10px 8px;
+  font-size: 20px;
+
+  border-radius: 8px;
+  border: none;
+  transition:
+    background-color 0.3s ease-out,
+    transform 0.3s ease-out;
+}
+.addPostBtn:hover {
+  background-color: rgb(20, 17, 41);
+}
+
+.listPostContainer {
+  border: 1px solid rgb(212, 212, 212);
+  padding: 30px;
+  margin: 20px 0;
+  width: 600px;
+  border-radius: 8px;
+}
+
+.post {
+  border: 1px solid rgb(212, 212, 212);
+  padding: 30px;
+  margin: 20px 0;
+
+  border-radius: 8px;
+}
+.post .postImage {
+  width: 100%;
+}
+
+.post .postImage img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btns {
+  display: flex;
+  width: 100%;
+  gap: 4px;
+}
+
+.editBtn {
+  background-color: white;
+  border: 1px solid rgb(207, 207, 207);
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 8px;
+  border-radius: 8px;
+  transition:
+    background-color 0.6s ease-out,
+    transform 0.3s ease-out;
+}
+.editBtn:hover {
+  background-color: rgb(240, 240, 240);
+}
+.removeBtn {
+  background-color: rgb(255, 0, 34);
+
+  font-weight: 600;
+  color: white;
+  border: none;
+  padding: 10px 8px;
+  border-radius: 8px;
+  transition:
+    background-color 0.6s ease-out,
+    transform 0.3s ease-out;
+}
+.removeBtn:hover {
+  background-color: rgb(230, 0, 31);
+}
